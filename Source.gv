@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Hemoglobina <= 9.55\ngini = 0.5\nsamples = 1244\nvalue = [622.0, 622.0]"] ;
+1 [label="gini = 0.11\nsamples = 193\nvalue = [31.794, 510.929]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.267\nsamples = 1051\nvalue = [590.206, 111.071]"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
